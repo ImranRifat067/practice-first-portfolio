@@ -49,13 +49,40 @@ nav a {
 
 .header{
     background-color:#fff8f3;
+    background-image: url("../images/hardy-bg1.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
     display:flex;
-    padding:30px 30px 30px 230px;
+    padding:30px 30px 0px 230px;
     align-items:center;
+    justify-content: space-around;
 
 }
+.banner-content{
+    max-width:500px;
+}
 .banner .profile-picture{
-    height:500px;
+    width:580px;
+}
+.banner-greating{
+    font-size:45px;
+    font-weight: 700;
+    color:#474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size:85px;
+    color:#181818;
+    font-weight:700;
+    margin-top:5px;
+    margin-bottom:20px;
+}
+.banner-dialogue{
+    color:#757575;
+    font-size:18px;
+    
+    margin-bottom:25px;
+
 }
