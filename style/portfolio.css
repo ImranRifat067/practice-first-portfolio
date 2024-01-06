@@ -1,4 +1,5 @@
 /* common shared style */
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -14,12 +15,15 @@ body{
     color:white;
     padding:18px 36px;
 }
+
 /* nav related style */
+
 nav{
+
     display:flex;
     align-items:center;
-    /* justify-content: space-around; */
     justify-content: space-between;
+    padding:0 200px;
 }
 .nav-title{
     font-size:45px;
@@ -39,4 +43,19 @@ nav li{
 nav a {
     text-decoration:none;
     color:#474747;
+} 
+
+/* Header related style */
+
+.header{
+    background-color:#fff8f3;
+}
+.banner{
+    display:flex;
+    padding:30px 30px 30px 230px;
+    align-items:center;
+
+}
+.banner .profile-picture{
+    height:500px;
 }
